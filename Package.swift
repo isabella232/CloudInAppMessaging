@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -10,10 +10,12 @@ let package = Package(
     products: [
         .library(
             name: "CloudInAppMessaging",
-            targets: ["CloudInAppMessaging"]),
+            targets: ["CloudInAppMessaging"]
+        ),
     ],
     targets: [
-        .target(name: "CloudInAppMessaging",
-                path: "CloudInAppMessaging"),
+        .target(
+            name: "CloudInAppMessaging"
+        ),
     ]
 )

@@ -16,9 +16,9 @@ which allows you to engage active app users with contextual messages.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'CloudInAppMessaging/**/*'
-  s.public_header_files = 'CloudInAppMessaging/*.h'
-  s.private_header_files = 'CloudInAppMessaging/Private/*.h'
+  s.source_files = 'Sources/CloudInAppMessaging/**/*'
+  s.public_header_files = 'Sources/CloudInAppMessaging/*.h'
+  s.private_header_files = 'Sources/CloudInAppMessaging/Private/*.h'
      
   s.frameworks = 'UIKit', 'Foundation', 'CloudKit'
 end
